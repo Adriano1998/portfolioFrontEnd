@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adriano Costa | Portfólio</title>
+    <meta name="description" content="Portfólio do Desenvolvedor Adriano Costa">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class="menu__link active" href="#home">
+                        <span title="Home" class="menu__text">Home</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#projetos">
+                        <span title="Projetos" class="menu__text">Projetos</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#sobre">
+                        <span title="Sobre" class="menu__text">Sobre</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#contato">
+                        <span title="Contato" class="menu__text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__brand">
+            <img class="brand__logo" title="Logo da Página" src="assets/images/Vector.png" alt="Logo da página">
+        </div>
+        <div class="header__toggle">
+            <i id="toggleTheme" title="Trocar de Tema" class="bi bi-sun"></i>
+        </div>
+
+    </header>
+    <nav class="nav--mobile">
+        <ul class="menu menu--mobile">
+            <li class="menu__item">
+                <a class="menu__link active" href="#home">
+                    <i class="menu__icon bi bi-house"></i>
+                    <span class="menu__text">Home</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#projetos">
+                    <i class="menu__icon bi bi-window-stack"></i>
+                    <span class="menu__text">Projetos</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#sobre">
+                    <i class="menu__icon bi bi-person"></i>
+                    <span class="menu__text">Sobre</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#contato">
+                    <i class="menu__icon bi bi-envelope"></i>
+                    <span class="menu__text">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="main__content1">
+            <h1>Soluções inovadoras e Desenvolvimento Low-Code</h1>
+            <p>Adriano Costa, Santos-SP, Desenvolvedor Low-Code</p>
+            <ul class="menu menu--social">
+                <li>
+                    <a class="menu__link" href=""><i class="menu__icon bi bi-github"></i></a>
+                </li>
+                <li>
+                    <a class="menu__link" href=""><i class="menu__icon bi bi-linkedin"></i></a>
+                </li>
+                <li>
+                    <a class="menu__link" href=""><i class="menu__icon bi bi-instagram"></i></a>
+                </li>
+            </ul>
+            <a href="#projetos">
+                <button class="btn btn--primary">
+                    <span title="Ver Projetos">Ver Projetos</span>
+                    <i class="bi bi-arrow-down-right"></i>
+                </button>
+            </a>
+        </div>
+        <div class="main__content2">
+            <iframe src="https://www.youtube.com/embed/AtPimFfGpCU?si=7QbztjeRKmxcfdJw" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projects__container">
+            <div class="projects__card">
+                <img class="card__cover" src="assets/images/hotel.jpg" alt="Imagem do Projeto Dio Hotel">
+                <div class="card__body">
+                    <h3 class="card__title">Dio Hotel - Adriano</h3>
+                    <p class="card__description">Gestão de Hotel em OutSystems</p>
+                    <ul class="card__list">
+                        <li class="card__item">Administração do hotel;</li>
+                        <li class="card__item">Gestão de clientes;</li>
+                        <li class="card__item">Gestão de hospedagens.</li>
+                    </ul>
+                    <div class="card__buttons">
+                        <button class="btn btn--primary">
+                            <span title="Prévia">Prévia</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>
+                        <button class="btn">
+                            <span title="Repositório"> <a
+                                    href="https://github.com/Adriano1998/DioHotel">Repositório</a></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="todosProjetos">
+                <button id="verTodosProjetos" class="btn btn--primary">
+                    <span title="Ver todos os projetos"><a href="https://github.com/Adriano1998">Ver todos os
+                            projetos</a></span>
+                    <i class="bi bi-arrow-up-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="about__content1">
+            <img class="about__photo" src="assets/images/fotoPerfil.jpg" alt="Foto de perfil">
+            <div class="about__description">
+                <h2>Sobre mim</h2>
+                <p>Adriano Costa. Apaixonado por tecnologia, meu primeiro "Hello World" foi após o ensino médio quando
+                    entrei na faculdade
+                    e tive contato com linguagens mais antiga primeiramente. Atualmente trabalho em uma empresa de
+                    Tecnologia - Sys Manager com desenvolvimento low-code.
+                </p>
+                <div class="about__icons">
+                    <i class="bi bi-translate"></i>
+                    <span>Inglês: Intermediário</span>
+                </div>
+                <div class="description__buttons">
+                    <a href="https://www.linkedin.com/in/adriano-costa-a9ab87158/" target="_blank">
+                        <button id="conecteLinkedin" class="btn btn--primary">
+                            <span title="Conecte-se comigo">Conecte-se Comigo</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>
+                    </a>
+                    <a href="">
+                        <button class="btn">
+                            <span title="Currículo">Currículo</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="about__content2">
+            <div class="col1">
+              <div class="row1">
+                <h3 title="Formação">Formação</h3>
+                <h4>Análise e Desenvolvimento de Sistemas</h4>
+                <span>Fev 2016 - Junho 2020</span>
+                <div class="about__icons">
+                  <i class="bi bi-bank"></i>
+                  <span>Faculdade de Tecnologia Baixada Santista - Rubens Lara</span>
+                </div>
+              </div>
+              <div class="row2">
+                <h3 title="Experiências">Experiências</h3>
+                <h4>Analista de Sistemas - Júnior</h4>
+                <span>Sys Manager - Setembro 2023 - Atualmente</span>
+                <ul class="about__list">
+                  <li class="about__item">Desenvolvimento de Features;</li>
+                  <li class="about__item">Revisões de códigos;</li>
+                  <li class="about__item">Testes Unitários.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col2">
+            <h3>Cursos</h3>
+            <div id="accordion">
+                <div class="accordion__item active">
+                    <button class="accordion__header start">
+                        <span>Bootcamp de Front-End</span>
+                        <i class="bi bi-caret-down-fill"></i>
+                    </button>
+                    <div class="accordion__body">
+                        <p>
+                            Digital Innovation One. Dezembro 2024. 75hrs.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <button class="accordion__header">
+                        <span>Bootcamp da BRQ - Mobile</span>
+                        <i class="bi bi-caret-down-fill"></i>
+                    </button>
+                    <div class="accordion__body">
+                        <p>
+                            BRQ. Dezembro 2022. 200hrs.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <button class="accordion__header">
+                        <span>Cursos Udemy</span>
+                        <i class="bi bi-caret-down-fill"></i>
+                    </button>
+                    <div class="accordion__body">
+                        <p>
+                            Udemy. 2022 e 2023.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <button class="accordion__header end">
+                        <span>Bootcamp da Sys Manager</span>
+                        <i class="bi bi-caret-down-fill"></i>
+                    </button>
+                    <div class="accordion__body end">
+                        <p>
+                            Sys Manager. Setembro 2023. 40hrs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+           
+
+        <section class="skills">
+            <h2>Conhecimento nas principais tecnologias do mercado</h2>
+            <ul title="Habilidades" class="skills__list">
+                <li class="skills_item">
+                    OutSystems
+                </li>
+
+                <li class="skills_item">
+                    Java
+                </li>
+                <li class="skills_item">
+                    Html
+                </li>
+                <li class="skills_item">
+                    CSS
+                </li>
+                <li class="skills_item">
+                    JavaScript
+                </li>
+            </ul>
+        </section>
+
+        <section id="contato" class="contact">
+            <h2>Contate-me</h2>
+            <p>Estou disponível para serviços e novas conexões. Contate-me via
+              e-mail e conecte-se comigo através das minhas redes sociais.
+            </p>
+            <ul class="menu menu--social">
+              <li>
+                <a class="menu__link" href="https://github.com/Adriano1998" target="_blank">
+                  <i class="menu__icon bi bi-github"></i>
+                  <span title="GitHub">GitHub</span>
+                </a>
+              </li>
+              <li>
+                <a class="menu__link" href="https://www.linkedin.com/in/adriano-costa-a9ab87158/" target="_blank">
+                  <i class="menu__icon bi bi-linkedin"></i>
+                  <span title="Linkedin">LinkedIn</span>
+                </a>
+              </li>
+              <li>
+                <a class="menu__link" href="" target="_blank">
+                  <i class="menu__icon bi bi-instagram"></i>
+                  <span title="Instagram">Instagram</span>
+                </a>
+              </li>
+            </ul>
+            <a href="mailto:adrianocostaads@gmail.com">
+              <button class="btn btn--primary">
+                <span id="email" class="email">adrianocostaads@gmail.com</span>
+              </button>
+            </a>
+          </section>
+
+        <footer>
+            <p>
+                © 2024. Todos os Direitos Reservados. Adriano Costa. Desenvolvido por <a title="Adriano Costa"
+                    href="https://github.com/Adriano1998">ADR</a>.
+            </p>
+        </footer>
+        <script src="assets/scripts/scripts.js"></script>
+</body>
+
+</html>
